@@ -1,7 +1,13 @@
 package com.revature.planes;
 
-public class Plane {
+import java.io.Serializable;
+
+public class Plane implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 117029751550382796L;
 	private int flightRange;
 	private int cargoCapacity;
 	private String manufactorer;

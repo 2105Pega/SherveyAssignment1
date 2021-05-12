@@ -1,7 +1,13 @@
 package com.revature.tree;
 
-public class Tree {
+import java.io.Serializable;
+
+public class Tree implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 3844130197761758940L;
 	private int age;
 	private String species;
 	private int height;
